@@ -247,7 +247,8 @@ class Piwik_Common
      */
     public static function isLookLikeUrl($url)
     {
-        return preg_match('~^(ftp|news|http|https)?://(.*)$~D', $url, $matches) !== 0
+        // modified to support custom email urls
+        return preg_match('~^(email|ftp|news|http|https)?://(.*)$~D', $url, $matches) !== 0
             && strlen($matches[2]) > 0;
     }
 
