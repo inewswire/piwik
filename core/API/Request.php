@@ -94,6 +94,14 @@ class Piwik_API_Request
         $this->request = self::getRequestArrayFromString($request);
         $this->sanitizeRequest();
     }
+    
+    // allow request params to be added directly
+    // to skip the terrible decoded url mess
+    public function add_request_params($params)
+    {
+        $this->request = $params + $this->request;
+        $this->sanitizeRequest();
+    } 
 
     /**
      * Make sure that the request contains no logical errors

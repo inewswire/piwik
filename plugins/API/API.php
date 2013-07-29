@@ -1620,8 +1620,24 @@ class Piwik_API_API
 
         $result = array();
         foreach ($urls as $url) {
-            $req = new Piwik_API_Request($url . '&format=php&serialize=0');
+            
+            // ----------------------------------------------------------------------
+            // Piwik sends data around using urls that are not percent 
+            // encoded/decoded correctly so we will instead set the request 
+            // params directly using the new method
+            // ----------------------------------------------------------------------
+            
+            $params = array();
+            parse_str($url, $params);
+            $params['format'] = 'php';
+            $params['serialize'] = '0';
+            
+            $req = new Piwik_API_Request();
+            $req->add_request_params($params);
             $result[] = $req->process();
+            
+            // ----------------------------------------------------------------------
+            // ----------------------------------------------------------------------
         }
         return $result;
     }
