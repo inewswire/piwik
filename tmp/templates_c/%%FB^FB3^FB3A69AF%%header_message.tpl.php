@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-08-07 06:11:58
+<?php /* Smarty version 2.6.26, created on 2013-12-05 16:47:22
          compiled from CoreHome/templates/header_message.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'translate', 'CoreHome/templates/header_message.tpl', 8, false),)), $this); ?>

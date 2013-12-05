@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-08-07 06:11:58
+<?php /* Smarty version 2.6.26, created on 2013-12-05 16:47:22
          compiled from CoreHome/templates/piwik_tag.tpl */ ?>
 
 <?php if ($this->_tpl_vars['piwikUrl'] == 'http://demo.piwik.org/' || $this->_tpl_vars['debugTrackVisitsInsidePiwikUI']): ?>

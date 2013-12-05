@@ -70,8 +70,8 @@ allow_upgrades_to_beta = 0
 ; if you set it to 1 and want the Unique Visitors to be re-processed for reports in the past, drop all piwik_archive_* tables
 ; it is recommended to always enable Unique Visitors processing for 'day' periods
 enable_processing_unique_visitors_day = 1
-enable_processing_unique_visitors_week = 1
-enable_processing_unique_visitors_month = 1
+enable_processing_unique_visitors_week = 0
+enable_processing_unique_visitors_month = 0
 enable_processing_unique_visitors_year = 0
 enable_processing_unique_visitors_range = 0
 
