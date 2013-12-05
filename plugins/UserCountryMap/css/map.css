@@ -81,8 +81,12 @@
     fill: #808888;
 }
 
+
 /* modification to hide drop down for newsroom widget usage */
 .widget .userCountryMapSelectMetrics { display: none; }
 .widget .userCountryMapSelectCountry { margin-right: 0px !important; max-width: 15em !important; }
 .widget .UserCountryMap-btn-city     { display: none !important; }
-.widget                              { margin: 0; }
+.widget                              { margin: 0 !important; }
+
+
+
