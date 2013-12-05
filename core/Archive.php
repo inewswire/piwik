@@ -235,7 +235,7 @@ abstract class Piwik_Archive
         else {
             $oSite = new Piwik_Site($idSite);
             $oPeriod = Piwik_Archive::makePeriodFromQueryParams($oSite, $period, $strDate);
-
+            
             $archive = new Piwik_Archive_Single();
             $archive->setPeriod($oPeriod);
             $archive->setSite($oSite);

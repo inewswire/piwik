@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-07-21 20:49:48
+<?php /* Smarty version 2.6.26, created on 2013-08-07 06:11:58
          compiled from CoreAdminHome/templates/header.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'translate', 'CoreAdminHome/templates/header.tpl', 7, false),array('function', 'loadJavascriptTranslations', 'CoreAdminHome/templates/header.tpl', 12, false),array('function', 'ajaxRequestErrorDiv', 'CoreAdminHome/templates/header.tpl', 37, false),)), $this); ?>

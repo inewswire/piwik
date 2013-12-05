@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-07-21 20:54:58
+<?php /* Smarty version 2.6.26, created on 2013-08-16 16:24:12
          compiled from Widgetize/templates/iframe.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'loadJavascriptTranslations', 'Widgetize/templates/iframe.tpl', 6, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-07-21 20:54:38
+<?php /* Smarty version 2.6.26, created on 2013-08-08 05:31:52
          compiled from UserCountryMap/templates/visitor-map.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'translate', 'UserCountryMap/templates/visitor-map.tpl', 15, false),array('modifier', 'escape', 'UserCountryMap/templates/visitor-map.tpl', 81, false),)), $this); ?>

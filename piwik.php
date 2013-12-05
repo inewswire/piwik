@@ -73,6 +73,8 @@ if (!defined('PIWIK_ENABLE_TRACKING') || PIWIK_ENABLE_TRACKING) {
     $process = new Piwik_Tracker();
     try {
         $process->main();
+        if (isset($_GET['no-cookie']) || isset($_COOKIE['no-cookie']))
+            header('Cookie: no-cookie=1');
     } catch (Exception $e) {
         echo "Error:" . $e->getMessage();
     }

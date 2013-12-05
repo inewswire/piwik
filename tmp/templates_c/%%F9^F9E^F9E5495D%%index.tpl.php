@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-07-21 21:42:24
+<?php /* Smarty version 2.6.26, created on 2013-08-08 05:31:52
          compiled from Dashboard/templates/index.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'loadJavascriptTranslations', 'Dashboard/templates/index.tpl', 1, false),array('modifier', 'translate', 'Dashboard/templates/index.tpl', 14, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-07-21 21:42:23
+<?php /* Smarty version 2.6.26, created on 2013-08-08 05:31:51
          compiled from CoreHome/templates/index_content.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'postEvent', 'CoreHome/templates/index_content.tpl', 6, false),array('function', 'ajaxRequestErrorDiv', 'CoreHome/templates/index_content.tpl', 8, false),array('function', 'ajaxLoadingDiv', 'CoreHome/templates/index_content.tpl', 11, false),)), $this); ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-07-21 21:30:44
+<?php /* Smarty version 2.6.26, created on 2013-08-08 05:31:52
          compiled from CoreHome/templates/datatable_footer.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'translate', 'CoreHome/templates/datatable_footer.tpl', 11, false),)), $this); ?>

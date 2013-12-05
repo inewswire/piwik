@@ -56,6 +56,7 @@ Plugins[] = "Proxy"
 Plugins[] = "LanguagesManager"
 Plugins[] = "SegmentEditor"
 Plugins[] = "Widgetize"
+Plugins[] = "Live"
 
 [PluginsInstalled]
 PluginsInstalled[] = "Login"

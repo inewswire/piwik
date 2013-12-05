@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.26, created on 2013-07-21 21:42:23
+<?php /* Smarty version 2.6.26, created on 2013-08-08 05:31:51
          compiled from CoreHome/templates/index.tpl */ ?>
 <?php $this->assign('showSitesSelection', true); ?>
 
